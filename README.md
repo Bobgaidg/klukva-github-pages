@@ -1,5 +1,8 @@
 # KLUKVA — демонстрация для GitHub Pages
 
+**Сайт:** [https://bobgaidg.github.io/klukva-github-pages/](https://bobgaidg.github.io/klukva-github-pages/)  
+**Репозиторий:** [Bobgaidg/klukva-github-pages](https://github.com/Bobgaidg/klukva-github-pages)
+
 Готовая статическая копия основной версии `Site/Витрина`. Сборка, npm и отдельный сервер для публикации не нужны.
 
 **Инструкция Word:** [Как опубликовать сайт на GitHub Pages](<instructions/Инструкция — публикация на GitHub Pages.docx>).
@@ -54,4 +57,4 @@ node tools/preview.mjs
 - [Выбор ветки и папки публикации](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [Загрузка файлов через браузер](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 
-Интерфейс и шаги проверены по документации GitHub 30.10.2026. В этой папке подготовлен локальный репозиторий; удалённый репозиторий и публикация ещё не созданы.
+Интерфейс и шаги проверены по документации GitHub 30.10.2026. Сайт опубликован 30.10.2026. Локальная ветка main связана с публичным репозиторием Bobgaidg/klukva-github-pages; GitHub Pages публикует её корень.
