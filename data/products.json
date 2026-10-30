@@ -1,0 +1,2948 @@
+[
+  {
+    "id": "sem-pyatnic-sharf-25",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Шарф",
+    "description": "Шарф ручной работы, шерсть.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Шерсть",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-kolco-26",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кольцо «Утренний»",
+    "description": "Кольцо ручной работы, серебро.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "21×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 3850,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-polka-nastennaya-27",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Полка настенная «Вечерний»",
+    "description": "Полка настенная ручной работы, сосна.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Сосна",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 4000,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-skrab-dlya-tela-28",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Скраб для тела «Тихий час в мастерской под крышей»",
+    "description": "Скраб для тела ручной работы, морская соль.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Морская соль",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-otkrytka-29",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка «Простой»",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Бумага",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 4250,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-kruzhka-30",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Кружка",
+    "description": "Кружка ручной работы, керамика.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "10×8 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 4400,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-sharf-31",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Шарф «Дорожный»",
+    "description": "Шарф ручной работы, шерсть.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Шерсть",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-braslet-32",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Браслет «Первый снег на старой даче»",
+    "description": "Браслет ручной работы, дерево и бисер.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Дерево и бисер",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 500,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-razdelochnaya-doska-33",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска «Летний»",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Дуб",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 600,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-mylo-ruchnoy-raboty-34",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Мыло ручной работы «Утренний»",
+    "description": "Мыло ручной работы ручной работы, натуральные масла.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "14×12 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-magnit-35",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Магнит",
+    "description": "Магнит ручной работы, дерево.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Дерево",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 900,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-tarelka-36",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Тарелка «Вечер в карельском лесу, у костра»",
+    "description": "Тарелка ручной работы, керамика.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1050,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-sharf-37",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Шарф «Простой»",
+    "description": "Шарф ручной работы, шерсть.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Шерсть",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-kolco-38",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кольцо «Домашний»",
+    "description": "Кольцо ручной работы, серебро.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "18×16 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 1300,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-polka-nastennaya-39",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Полка настенная «Дорожный»",
+    "description": "Полка настенная ручной работы, сосна.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Сосна",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 1450,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-skrab-dlya-tela-40",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Скраб для тела",
+    "description": "Скраб для тела ручной работы, морская соль.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Морская соль",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-otkrytka-41",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка «Летний»",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Бумага",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1700,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-miska-42",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Миска «Утренний»",
+    "description": "Миска ручной работы, шамотная глина.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Шамотная глина",
+    "weight": "",
+    "dimensions": "22×10 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 1850,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-sharf-43",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Шарф «Вечерний»",
+    "description": "Шарф ручной работы, шерсть.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Шерсть",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-braslet-44",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Браслет «Первый снег на старой даче»",
+    "description": "Браслет ручной работы, дерево и бисер.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Дерево и бисер",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2150,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-razdelochnaya-doska-45",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Дуб",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2250,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-mylo-ruchnoy-raboty-46",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Мыло ручной работы «Домашний»",
+    "description": "Мыло ручной работы ручной работы, натуральные масла.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "11×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-magnit-47",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Магнит «Дорожный»",
+    "description": "Магнит ручной работы, дерево.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Дерево",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 2550,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-vaza-48",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Ваза «Вечер в карельском лесу, у костра»",
+    "description": "Ваза ручной работы, фаянс.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Фаянс",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2700,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "sem-pyatnic-sharf-49",
+    "supplierId": "sem-pyatnic",
+    "brand": "«Семь пятниц» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Шарф «Летний»",
+    "description": "Шарф ручной работы, шерсть.",
+    "author": "Мастерская «Семь пятниц», Гжель",
+    "material": "Шерсть",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sergi-50",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Серьги",
+    "description": "Серьги ручной работы, серебро.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "15×8 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-shkatulka-51",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Шкатулка «Вечерний»",
+    "description": "Шкатулка ручной работы, берёза.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Берёза",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 3100,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-balzam-dlya-gub-52",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Бальзам для губ «Праздничный»",
+    "description": "Бальзам для губ ручной работы, натуральные масла.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3200,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-igrushka-tekstilnaya-53",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Игрушка текстильная «Дорога домой через еловый лес»",
+    "description": "Игрушка текстильная ручной работы, хлопок.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Хлопок",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-chaynik-54",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Чайник «Домашний»",
+    "description": "Чайник ручной работы, керамика.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "19×12 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 3500,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sumka-tkanevaya-55",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Сумка тканевая",
+    "description": "Сумка тканевая ручной работы, лён.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Лён",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 3650,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-kulon-56",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кулон «Зимний»",
+    "description": "Кулон ручной работы, латунь.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Латунь",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-podsvechnik-57",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Подсвечник «Полдень в саду у бабушки»",
+    "description": "Подсвечник ручной работы, дуб.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Дуб",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3900,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-svecha-aromaticheskaya-58",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Свеча ароматическая «Утренний»",
+    "description": "Свеча ароматическая ручной работы, соевый воск.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Соевый воск",
+    "weight": "",
+    "dimensions": "23×16 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 4050,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-bloknot-v-oblozhke-59",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Блокнот в обложке «Вечерний»",
+    "description": "Блокнот в обложке ручной работы, кожа.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Кожа",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-kruzhka-60",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Кружка",
+    "description": "Кружка ручной работы, керамика.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 4300,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sumka-tkanevaya-61",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Сумка тканевая «Утро в деревне после дождя»",
+    "description": "Сумка тканевая ручной работы, лён.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Лён",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 4450,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sergi-62",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Серьги «Домашний»",
+    "description": "Серьги ручной работы, серебро.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "12×10 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-shkatulka-63",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Шкатулка «Дорожный»",
+    "description": "Шкатулка ручной работы, берёза.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Берёза",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 550,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-balzam-dlya-gub-64",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Бальзам для губ «Зимний»",
+    "description": "Бальзам для губ ручной работы, натуральные масла.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 650,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-igrushka-tekstilnaya-65",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Игрушка текстильная",
+    "description": "Игрушка текстильная ручной работы, хлопок.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Хлопок",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-tarelka-66",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Тарелка «Утренний»",
+    "description": "Тарелка ручной работы, керамика.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "16×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 950,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sumka-tkanevaya-67",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Сумка тканевая «Вечерний»",
+    "description": "Сумка тканевая ручной работы, лён.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Лён",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 1100,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-kulon-68",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кулон «Праздничный»",
+    "description": "Кулон ручной работы, латунь.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Латунь",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-podsvechnik-69",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Подсвечник «Полдень в саду у бабушки»",
+    "description": "Подсвечник ручной работы, дуб.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Дуб",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1350,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-svecha-aromaticheskaya-70",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Свеча ароматическая",
+    "description": "Свеча ароматическая ручной работы, соевый воск.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Соевый воск",
+    "weight": "",
+    "dimensions": "20×8 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 1500,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-bloknot-v-oblozhke-71",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Блокнот в обложке «Дорожный»",
+    "description": "Блокнот в обложке ручной работы, кожа.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Кожа",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-miska-72",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Миска «Зимний»",
+    "description": "Миска ручной работы, шамотная глина.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Шамотная глина",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1750,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sumka-tkanevaya-73",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Сумка тканевая «Утро в деревне после дождя»",
+    "description": "Сумка тканевая ручной работы, лён.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Лён",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1900,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "tridevyatoe-carstvo-sergi-74",
+    "supplierId": "tridevyatoe-carstvo",
+    "brand": "«Тридевятое царство» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Серьги «Утренний»",
+    "description": "Серьги ручной работы, серебро.",
+    "author": "Мастерская «Тридевятое царство», Суздаль",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "24×12 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-razdelochnaya-doska-75",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дуб",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-mylo-ruchnoy-raboty-76",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Мыло ручной работы «Праздничный»",
+    "description": "Мыло ручной работы ручной работы, натуральные масла.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2300,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-magnit-77",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Магнит «Простой»",
+    "description": "Магнит ручной работы, дерево.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дерево",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2450,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-vaza-78",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Ваза «Вечер в карельском лесу, у костра»",
+    "description": "Ваза ручной работы, фаянс.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Фаянс",
+    "weight": "",
+    "dimensions": "13×16 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-sviter-79",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Свитер «Дорожный»",
+    "description": "Свитер ручной работы, шерсть.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Шерсть",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 2700,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-kolco-80",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кольцо",
+    "description": "Кольцо ручной работы, серебро.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2850,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-polka-nastennaya-81",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Полка настенная «Летний»",
+    "description": "Полка настенная ручной работы, сосна.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Сосна",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-skrab-dlya-tela-82",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Скраб для тела «Тихий час в мастерской под крышей»",
+    "description": "Скраб для тела ручной работы, морская соль.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Морская соль",
+    "weight": "",
+    "dimensions": "17×10 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 3150,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-otkrytka-83",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка «Вечерний»",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Бумага",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 3250,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-chaynik-84",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Чайник «Праздничный»",
+    "description": "Чайник ручной работы, керамика.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-sviter-85",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Свитер",
+    "description": "Свитер ручной работы, шерсть.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Шерсть",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3550,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-braslet-86",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Браслет «Первый снег на старой даче»",
+    "description": "Браслет ручной работы, дерево и бисер.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дерево и бисер",
+    "weight": "",
+    "dimensions": "21×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 3700,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-razdelochnaya-doska-87",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска «Дорожный»",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дуб",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-mylo-ruchnoy-raboty-88",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Мыло ручной работы «Зимний»",
+    "description": "Мыло ручной работы ручной работы, натуральные масла.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3950,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-magnit-89",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Магнит «Летний»",
+    "description": "Магнит ручной работы, дерево.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дерево",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 4100,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-kruzhka-90",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Кружка",
+    "description": "Кружка ручной работы, керамика.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "10×8 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-sviter-91",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Свитер «Вечерний»",
+    "description": "Свитер ручной работы, шерсть.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Шерсть",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 4350,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-kolco-92",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кольцо «Праздничный»",
+    "description": "Кольцо ручной работы, серебро.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 300,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-polka-nastennaya-93",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Полка настенная «Простой»",
+    "description": "Полка настенная ручной работы, сосна.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Сосна",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-skrab-dlya-tela-94",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Скраб для тела «Тихий час в мастерской под крышей»",
+    "description": "Скраб для тела ручной работы, морская соль.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Морская соль",
+    "weight": "",
+    "dimensions": "14×12 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 600,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-otkrytka-95",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Бумага",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 700,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-tarelka-96",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Тарелка «Зимний»",
+    "description": "Тарелка ручной работы, керамика.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-sviter-97",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Свитер «Летний»",
+    "description": "Свитер ручной работы, шерсть.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Шерсть",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1000,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-braslet-98",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Браслет «Первый снег на старой даче»",
+    "description": "Браслет ручной работы, дерево и бисер.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дерево и бисер",
+    "weight": "",
+    "dimensions": "18×16 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 1150,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "shivorot-navyvorot-razdelochnaya-doska-99",
+    "supplierId": "shivorot-navyvorot",
+    "brand": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска «Вечерний»",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Шиворот-навыворот», Вологда",
+    "material": "Дуб",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-svecha-aromaticheskaya-100",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Свеча ароматическая",
+    "description": "Свеча ароматическая ручной работы, соевый воск.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Соевый воск",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-bloknot-v-oblozhke-101",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Блокнот в обложке «Простой»",
+    "description": "Блокнот в обложке ручной работы, кожа.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Кожа",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1550,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-miska-102",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Миска «Домашний»",
+    "description": "Миска ручной работы, шамотная глина.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Шамотная глина",
+    "weight": "",
+    "dimensions": "22×10 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 1650,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-varezhki-103",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Варежки «Утро в деревне после дождя»",
+    "description": "Варежки ручной работы, шерсть.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Шерсть",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-sergi-104",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Серьги «Зимний»",
+    "description": "Серьги ручной работы, серебро.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1950,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-shkatulka-105",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Шкатулка",
+    "description": "Шкатулка ручной работы, берёза.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Берёза",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2100,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-balzam-dlya-gub-106",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Бальзам для губ «Утренний»",
+    "description": "Бальзам для губ ручной работы, натуральные масла.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "11×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-igrushka-tekstilnaya-107",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Игрушка текстильная «Дорога домой через еловый лес»",
+    "description": "Игрушка текстильная ручной работы, хлопок.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Хлопок",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 2350,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-vaza-108",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Ваза «Праздничный»",
+    "description": "Ваза ручной работы, фаянс.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Фаянс",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2500,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-varezhki-109",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Варежки «Простой»",
+    "description": "Варежки ручной работы, шерсть.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Шерсть",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-kulon-110",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кулон",
+    "description": "Кулон ручной работы, латунь.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Латунь",
+    "weight": "",
+    "dimensions": "15×8 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 2750,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-podsvechnik-111",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Подсвечник «Полдень в саду у бабушки»",
+    "description": "Подсвечник ручной работы, дуб.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Дуб",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 2900,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-svecha-aromaticheskaya-112",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Свеча ароматическая «Зимний»",
+    "description": "Свеча ароматическая ручной работы, соевый воск.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Соевый воск",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-bloknot-v-oblozhke-113",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Блокнот в обложке «Летний»",
+    "description": "Блокнот в обложке ручной работы, кожа.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Кожа",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3200,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-chaynik-114",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Чайник «Утренний»",
+    "description": "Чайник ручной работы, керамика.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "19×12 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 3300,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-varezhki-115",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Варежки",
+    "description": "Варежки ручной работы, шерсть.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Шерсть",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-sergi-116",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Серьги «Праздничный»",
+    "description": "Серьги ручной работы, серебро.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3600,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-shkatulka-117",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Шкатулка «Простой»",
+    "description": "Шкатулка ручной работы, берёза.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Берёза",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3750,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-balzam-dlya-gub-118",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Бальзам для губ «Домашний»",
+    "description": "Бальзам для губ ручной работы, натуральные масла.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "23×16 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-igrushka-tekstilnaya-119",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Игрушка текстильная «Дорога домой через еловый лес»",
+    "description": "Игрушка текстильная ручной работы, хлопок.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Хлопок",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 4000,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-kruzhka-120",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Кружка",
+    "description": "Кружка ручной работы, керамика.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 4150,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-varezhki-121",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Варежки «Летний»",
+    "description": "Варежки ручной работы, шерсть.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Шерсть",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-kulon-122",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кулон «Утренний»",
+    "description": "Кулон ручной работы, латунь.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Латунь",
+    "weight": "",
+    "dimensions": "12×10 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 4400,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-podsvechnik-123",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Подсвечник «Полдень в саду у бабушки»",
+    "description": "Подсвечник ручной работы, дуб.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Дуб",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 350,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "kot-v-meshke-svecha-aromaticheskaya-124",
+    "supplierId": "kot-v-meshke",
+    "brand": "«Кот в мешке» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Свеча ароматическая «Праздничный»",
+    "description": "Свеча ароматическая ручной работы, соевый воск.",
+    "author": "Мастерская «Кот в мешке», Тула",
+    "material": "Соевый воск",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-otkrytka-125",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Бумага",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-tarelka-126",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Тарелка «Домашний»",
+    "description": "Тарелка ручной работы, керамика.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "16×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 750,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-noski-127",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Носки «Дорожный»",
+    "description": "Носки ручной работы, шерсть.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Шерсть",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 900,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-braslet-128",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Браслет «Первый снег на старой даче»",
+    "description": "Браслет ручной работы, дерево и бисер.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Дерево и бисер",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-razdelochnaya-doska-129",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска «Летний»",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Дуб",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1150,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-mylo-ruchnoy-raboty-130",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Мыло ручной работы",
+    "description": "Мыло ручной работы ручной работы, натуральные масла.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "20×8 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 1300,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-magnit-131",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Магнит «Вечерний»",
+    "description": "Магнит ручной работы, дерево.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Дерево",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-miska-132",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Миска «Вечер в карельском лесу, у костра»",
+    "description": "Миска ручной работы, шамотная глина.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Шамотная глина",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1600,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-noski-133",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Носки «Простой»",
+    "description": "Носки ручной работы, шерсть.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Шерсть",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 1700,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-kolco-134",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кольцо «Домашний»",
+    "description": "Кольцо ручной работы, серебро.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "24×12 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-polka-nastennaya-135",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Полка настенная",
+    "description": "Полка настенная ручной работы, сосна.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Сосна",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 2000,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-skrab-dlya-tela-136",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Скраб для тела «Тихий час в мастерской под крышей»",
+    "description": "Скраб для тела ручной работы, морская соль.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Морская соль",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2150,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-otkrytka-137",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка «Летний»",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Бумага",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-vaza-138",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Ваза «Утренний»",
+    "description": "Ваза ручной работы, фаянс.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Фаянс",
+    "weight": "",
+    "dimensions": "13×16 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 2400,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-noski-139",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Носки «Вечерний»",
+    "description": "Носки ручной работы, шерсть.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Шерсть",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 2550,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-braslet-140",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Браслет",
+    "description": "Браслет ручной работы, дерево и бисер.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Дерево и бисер",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-razdelochnaya-doska-141",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Разделочная доска «Простой»",
+    "description": "Разделочная доска ручной работы, дуб.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Дуб",
+    "weight": "250 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 2800,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-mylo-ruchnoy-raboty-142",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Мыло ручной работы «Домашний»",
+    "description": "Мыло ручной работы ручной работы, натуральные масла.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Натуральные масла",
+    "weight": "",
+    "dimensions": "17×10 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": 2950,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-magnit-143",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Магнит «Дорожный»",
+    "description": "Магнит ручной работы, дерево.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Дерево",
+    "weight": "350 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-chaynik-144",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "ceramics"
+    ],
+    "name": "Чайник «Вечер в карельском лесу, у костра»",
+    "description": "Чайник ручной работы, керамика.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Керамика",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3250,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/ceramics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-noski-145",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "textile"
+    ],
+    "name": "Носки",
+    "description": "Носки ручной работы, шерсть.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Шерсть",
+    "weight": "450 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3350,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/textile.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-kolco-146",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "jewelry"
+    ],
+    "name": "Кольцо «Утренний»",
+    "description": "Кольцо ручной работы, серебро.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Серебро",
+    "weight": "",
+    "dimensions": "21×14 см",
+    "leadTime": "от двух недель",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/jewelry.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-polka-nastennaya-147",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "wood-home"
+    ],
+    "name": "Полка настенная «Вечерний»",
+    "description": "Полка настенная ручной работы, сосна.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Сосна",
+    "weight": "550 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Цвет",
+        "value": "Тёмный"
+      }
+    ],
+    "priceFrom": 3650,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/wood-home.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-skrab-dlya-tela-148",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "candles-cosmetics"
+    ],
+    "name": "Скраб для тела «Тихий час в мастерской под крышей»",
+    "description": "Скраб для тела ручной работы, морская соль.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Морская соль",
+    "weight": "",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": 3800,
+    "showPrice": true,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/candles-cosmetics.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "dva-sapoga-para-otkrytka-149",
+    "supplierId": "dva-sapoga-para",
+    "brand": "«Два сапога пара» — тест-бренд Клюквы",
+    "categories": [
+      "other"
+    ],
+    "name": "Открытка «Простой»",
+    "description": "Открытка ручной работы, бумага.",
+    "author": "Мастерская «Два сапога пара», Городец",
+    "material": "Бумага",
+    "weight": "650 г",
+    "dimensions": "",
+    "leadTime": "",
+    "attributes": [],
+    "priceFrom": null,
+    "showPrice": false,
+    "tags": [],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/other.svg",
+    "extraPhotoUrls": []
+  },
+  {
+    "id": "виниловая-плстинка-кино",
+    "supplierId": "roga-i-kopyta",
+    "brand": "«Рога и копыта» — тест-бренд Клюквы",
+    "categories": [
+      "русский-рок",
+      "музыка"
+    ],
+    "name": "Виниловая плстинка КИНО",
+    "description": "Издание лейбла Moroz Records.\n\n    A1. Видели Ночь\n    A2. Фильмы\n    A3. Твой Номер\n    A4. Танец\n    A5. Ночь\n    B1. Последний Герой\n    B2. Жизнь В Стеклах\n    B3. Мама Анархия\n    B4. Звезды Останутся Здесь\n    B5. Игра\n    B6. Мы Хотим Танцевать",
+    "author": "КИНО,Мороз Рекордс",
+    "material": "Поливинилхлорид (Винил)",
+    "weight": "250г.",
+    "dimensions": "30x30 см",
+    "leadTime": "",
+    "attributes": [
+      {
+        "name": "Длительность записи",
+        "value": "1 час 41 минута 35 секунд"
+      },
+      {
+        "name": "Состояние пластинки",
+        "value": "Новое"
+      }
+    ],
+    "priceFrom": 5000,
+    "priceTo": null,
+    "showPrice": true,
+    "tags": [
+      "Русский рок",
+      "Россия",
+      "Мороз Рекордс",
+      "Виниловая пластинка",
+      "Музыка"
+    ],
+    "supplierUrl": "",
+    "photoUrl": "assets/images/русский-рок.svg",
+    "extraPhotoUrls": [
+      "assets/images/русский-рок-detail.svg"
+    ]
+  }
+]

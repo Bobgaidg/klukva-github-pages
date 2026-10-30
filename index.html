@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Демонстрационная витрина KLUKVA: каталог тестовых товаров и страницы брендов.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Клюква — витрина российских брендов</title>
+<script>(function(){try{var t=localStorage.getItem('klukva-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="site-header" class="site-header"></div>
+<aside class="demo-notice" aria-label="Демонстрационная версия">Демонстрация · Тестовые товары и бренды. <a href="demo.html">Подробнее</a></aside>
+<main class="page">
+  <section class="hero">
+    <div class="hero-collage" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-content">
+      <h1>Клюква — витрина товаров от российских брендов</h1>
+      <p><a class="button" href="catalog.html">Смотреть каталог</a></p>
+    </div>
+  </section>
+
+  <section class="home-section" id="recently-viewed-section" hidden>
+    <h2>Вы смотрели</h2>
+    <ul id="recently-viewed-cards" class="card-grid home-grid"></ul>
+  </section>
+
+  <section class="home-section">
+    <h2>Карточки товаров</h2>
+    <p id="home-cards-empty" class="placeholder-note" hidden>Товаров пока нет — они появятся здесь, как только поставщики заведут свои карточки.</p>
+    <ul id="home-cards" class="card-grid home-grid"></ul>
+    <p style="text-align:center"><a href="catalog.html">Весь каталог →</a></p>
+  </section>
+
+  <section>
+    <h2>О нас</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Что такое Клюква?</summary>
+        <p>Витрина-доска товаров и услуг российских брендов — не интернет-магазин.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Можно ли купить товар прямо здесь?</summary>
+        <p>Нет. Карточка ведёт на сайт поставщика или на его контакты — сделка и доставка идут уже там.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Кто ведёт проект?</summary>
+        <p>Фонд «Во имя твоё» и ООО «Разумное действие».</p>
+      </details>
+      <details class="faq-item">
+        <summary>Можно увидеть товары вживую?</summary>
+        <p>У фонда есть шоу-рум в «Президент-Отеле» в Москве.</p>
+      </details>
+    </div>
+  </section>
+
+  <section>
+    <h2>Для поставщиков</h2>
+    <p>Размещаем товары и услуги российских брендов на витрине. Подробности — <a href="placement.html">условия размещения</a>.</p>
+  </section>
+</main>
+<div id="site-footer" class="site-footer"></div>
+<script src="js/partials.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/data.js"></script>
+<script src="js/catalog.js"></script>
+<script src="js/recently-viewed.js"></script>
+<script src="js/cookie-banner.js"></script>
+</body>
+</html>

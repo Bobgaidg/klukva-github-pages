@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Демонстрационное изображение: Дерево и предметы для дома">
+<rect width="800" height="600" fill="#e9e3dd"/>
+<rect x="32" y="32" width="736" height="536" rx="12" fill="none" stroke="#d3c8bf" stroke-width="2"/>
+<g fill="#9c2b3c" opacity=".65"><circle cx="380" cy="224" r="24"/><circle cx="423" cy="224" r="24"/><circle cx="402" cy="261" r="24"/></g>
+<path d="M402 200q-10-38 29-42" fill="none" stroke="#8d9880" stroke-width="6" stroke-linecap="round"/>
+<text x="400" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#6b625d">Дерево и предметы для дома</text>
+<text x="400" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b625d">Деталь · демонстрационное изображение</text>
+</svg>

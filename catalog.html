@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Демонстрационная витрина KLUKVA: каталог тестовых товаров и страницы брендов.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Каталог — Клюква</title>
+<script>(function(){try{var t=localStorage.getItem('klukva-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="site-header" class="site-header"></div>
+<aside class="demo-notice" aria-label="Демонстрационная версия">Демонстрация · Тестовые товары и бренды. <a href="demo.html">Подробнее</a></aside>
+<main class="page">
+  <h1>Каталог</h1>
+  <p>Товары и услуги российских брендов. Переход по карточке ведёт на сайт поставщика — сделка идёт там.</p>
+  <form id="catalog-search-form" method="get" action="catalog.html" class="cabinet-toolbar">
+    <input type="hidden" name="category">
+    <input type="search" name="q" placeholder="Поиск по названию или бренду">
+    <select name="sort" id="sort-select">
+      <option value="">По порядку</option>
+      <option value="relevance">По совпадению с запросом</option>
+      <option value="price-asc">Сначала дешевле</option>
+      <option value="price-desc">Сначала дороже</option>
+    </select>
+    <button type="submit" class="button">Найти</button>
+  </form>
+  <nav id="category-filter" class="filter-bar"></nav>
+  <p id="catalog-empty" class="placeholder-note" hidden>Ничего не нашлось.</p>
+  <ul id="catalog-list" class="card-grid"></ul>
+  <nav id="pagination" class="pagination"></nav>
+</main>
+<div id="site-footer" class="site-footer"></div>
+<script src="js/partials.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/data.js"></script>
+<script src="js/catalog.js"></script>
+<script src="js/cookie-banner.js"></script>
+</body>
+</html>

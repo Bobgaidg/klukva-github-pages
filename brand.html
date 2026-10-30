@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Демонстрационная витрина KLUKVA: каталог тестовых товаров и страницы брендов.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Бренд — Клюква</title>
+<script>(function(){try{var t=localStorage.getItem('klukva-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="site-header" class="site-header"></div>
+<aside class="demo-notice" aria-label="Демонстрационная версия">Демонстрация · Тестовые товары и бренды. <a href="demo.html">Подробнее</a></aside>
+<main class="page">
+  <p><a href="catalog.html">← Весь каталог</a></p>
+  <div id="brand-header"></div>
+  <h2>Товары бренда</h2>
+  <p id="catalog-empty" class="placeholder-note" hidden>У этого бренда пока нет карточек.</p>
+  <ul id="catalog-list" class="card-grid"></ul>
+  <nav id="pagination" class="pagination"></nav>
+</main>
+<div id="site-footer" class="site-footer"></div>
+<script src="js/partials.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/data.js"></script>
+<script src="js/catalog.js"></script>
+<script src="js/brand.js"></script>
+<script src="js/cookie-banner.js"></script>
+</body>
+</html>

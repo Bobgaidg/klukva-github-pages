@@ -1,0 +1,1230 @@
+:root {
+  color-scheme: light;
+  --text: #2b2320;
+  --muted: #6b625d;
+  --bg: #fdfaf7;
+  --surface: #ffffff;
+  --border: #e4dcd4;
+  --photo-bg: #e9e3dd;
+  --note-bg: #f3ece6;
+  --accent: #9c2b3c;
+  --accent-solid: #9c2b3c;
+  --accent-hover: #7a2230;
+  --accent-visited: #6e1f2b;
+  --bar-bg: #9c2b3c;
+  --bar-text: #ffffff;
+}
+
+/* Тёмная тема подхватывается автоматически из настроек системы, пока
+   человек не выбрал своё через кнопку в шапке (тогда на <html> стоит
+   data-theme="light"/"dark", и он главнее системной настройки). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --text: #f2ece6;
+    --muted: #b8aca3;
+    --bg: #1c1715;
+    --surface: #2a2220;
+    --border: #443a34;
+    --photo-bg: #3a302b;
+    --note-bg: #332a25;
+    --accent: #e38fa0;
+    --accent-solid: #b23a52;
+    --accent-hover: #f0aab8;
+    --accent-visited: #c98fa0;
+    /* Та же фирменная линия, что и на кнопках, но темнее и глуше:
+       насыщенный клюквенный на весь верх/низ страницы в тёмной теме
+       выглядит грязно, а не ярко. */
+    --bar-bg: #5c1c28;
+    --bar-text: #ffffff;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --text: #f2ece6;
+  --muted: #b8aca3;
+  --bg: #1c1715;
+  --surface: #2a2220;
+  --border: #443a34;
+  --photo-bg: #3a302b;
+  --note-bg: #332a25;
+  --accent: #e38fa0;
+  --accent-solid: #b23a52;
+  --accent-hover: #f0aab8;
+  --accent-visited: #c98fa0;
+  --bar-bg: #5c1c28;
+  --bar-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+/* Без этого атрибут hidden проигрывает любому правилу, которое задаёт
+   display тем же классом (так и было с модальным окном — оно задаёт
+   display: flex и перебивало hidden, окно оставалось открытым всегда). */
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+/* Подвал внизу окна на короткой странице и сразу после содержимого на
+   длинной — .page растягивается на всё свободное место, остальное нет. */
+.site-header,
+.site-footer {
+  flex: none;
+}
+
+.page {
+  flex: 1 0 auto;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:visited {
+  color: var(--accent-visited);
+}
+
+.page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bar-bg);
+}
+
+.site-header .logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--bar-text);
+  text-decoration: none;
+}
+
+.site-header nav a {
+  margin-left: 16px;
+  color: var(--bar-text);
+  text-decoration: none;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
+}
+
+.theme-toggle {
+  margin-left: 16px;
+  padding: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.theme-toggle-sun {
+  color: #e0a872;
+}
+
+.theme-toggle-moon {
+  color: #dd7a9c;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background: rgba(255, 255, 255, 0.15);
+  outline: none;
+}
+
+.theme-toggle svg {
+  display: block;
+}
+
+.site-footer {
+  padding: 16px;
+  margin-top: 48px;
+  background: var(--bar-bg);
+  color: var(--bar-text);
+  font-size: 0.9rem;
+}
+
+.site-footer nav a {
+  color: var(--bar-text);
+  margin-right: 16px;
+}
+
+.button,
+.button:visited,
+.button:hover,
+.button:active {
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  background: var(--accent-solid);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: var(--accent-hover);
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 48px 16px;
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+/* Настоящих фото нет и взять их неоткуда — чужие использовать нельзя.
+   Коллаж рисуется кодом как честная заглушка, а не подделка под готовый сайт. */
+.hero-collage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-collage span {
+  position: absolute;
+  opacity: 0.35;
+}
+
+.hero-collage span:nth-child(1) {
+  width: 240px;
+  height: 240px;
+  top: -70px;
+  left: -50px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.hero-collage span:nth-child(2) {
+  width: 180px;
+  height: 180px;
+  top: 30px;
+  right: 8%;
+  background: var(--bar-bg);
+  border-radius: 30% 70% 65% 35% / 40% 45% 55% 60%;
+}
+
+.hero-collage span:nth-child(3) {
+  width: 280px;
+  height: 150px;
+  bottom: -50px;
+  left: 18%;
+  background: var(--photo-bg);
+  opacity: 0.6;
+  border-radius: 40% 60% 50% 50% / 60% 40% 60% 40%;
+}
+
+.hero-collage span:nth-child(4) {
+  width: 130px;
+  height: 130px;
+  bottom: 0;
+  right: 6%;
+  background: var(--accent-hover);
+  border-radius: 50%;
+}
+
+.hero-collage span:nth-child(5) {
+  width: 190px;
+  height: 190px;
+  top: 8%;
+  left: 42%;
+  background: var(--border);
+  opacity: 0.5;
+  border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(1.6rem, 4.5vw, 2.3rem);
+  margin: 0 0 20px;
+}
+
+.hero p {
+  max-width: 60ch;
+  margin: 0 auto 20px;
+  color: var(--muted);
+}
+
+.home-section {
+  margin-top: 40px;
+}
+
+.home-section h2 {
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+  margin: 24px 0;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px;
+  background: var(--surface);
+}
+
+.home-grid .card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home-grid .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+}
+
+.card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-photo {
+  aspect-ratio: 4 / 3;
+  background: var(--photo-bg);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+
+.photo-error {
+  padding: 10px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.card-photo.photo-error {
+  font-size: 0.8rem;
+}
+
+.detail-photo.photo-error a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Внутри галереи текст ошибки делит место со стрелками листания —
+   владелец прислал снимок, где длинная прежняя подпись заезжала под
+   них (два слоя сделали порознь, не подумав, что могут встретиться).
+   Запас с боков держит текст в стороне от стрелок при любой ширине. */
+.photo-gallery-main .photo-error {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+/* Маленькое превью с битым фото — не пустая рамка, которую легко
+   принять за поломку сайта, а короткий заметный значок того же
+   размера, что и рабочее превью. */
+.extra-photo-thumb.photo-error {
+  width: 72px;
+  height: 72px;
+  font-size: 0.75rem;
+  padding: 4px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--photo-bg);
+  color: var(--muted);
+  border-radius: 4px;
+}
+
+.card-photo-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.card-category {
+  color: var(--accent);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 2px;
+}
+
+.card-brand {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.card-price {
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.filter-bar a {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.filter-bar a:hover {
+  border-color: var(--accent);
+}
+
+.filter-bar a.active {
+  background: var(--accent-solid);
+  border-color: var(--accent-solid);
+  color: #fff;
+}
+
+.filter-chip {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filter-chip:hover {
+  border-color: var(--accent);
+}
+
+.filter-chip.active {
+  background: var(--accent-solid);
+  border-color: var(--accent-solid);
+  color: #fff;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.pagination a {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text);
+  text-decoration: none;
+  min-width: 1.5em;
+  text-align: center;
+}
+
+.pagination a.active {
+  background: var(--accent-solid);
+  border-color: var(--accent-solid);
+  color: #fff;
+}
+
+/* Кабинет поставщика */
+
+.warning-note {
+  background: var(--note-bg);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+/* Плашка подписки в кабинете поставщика — решение владельца от
+   15.10.2026. Обычный тон нарочно, без тревожных цветов, для обоих
+   состояний (активна/закончилась): у поставщика с кончившимся сроком
+   первая мысль при пустой витрине — «меня отключили навсегда», и текст
+   должен опровергнуть это сразу, а не кричащим цветом усилить тревогу. */
+.subscription-notice {
+  background: var(--note-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+.cabinet-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.cabinet-toolbar input[type="search"] {
+  flex: 1 1 240px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.cabinet-toolbar select {
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: var(--surface);
+}
+
+.product-row-actions {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.product-row .published-note {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin-left: 6px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.text-action-button {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  margin-left: 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.text-action-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 16px;
+  overflow-y: auto;
+  z-index: 200;
+}
+
+.modal {
+  position: relative;
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 880px;
+  width: 100%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.modal-preview-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+
+.modal-preview .card-grid {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .modal-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.detail-photo {
+  aspect-ratio: 4 / 3;
+  max-width: 420px;
+  background: var(--photo-bg);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.detail-photo-img {
+  display: block;
+  aspect-ratio: 4 / 3;
+  max-width: 420px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.field-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.field-list li {
+  margin-bottom: 6px;
+}
+
+.placeholder-note {
+  background: var(--note-bg);
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  padding: 12px 16px;
+  color: var(--muted);
+}
+
+.tariffs {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 24px 0;
+}
+
+.tariff {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px;
+  background: var(--surface);
+}
+
+.tariff h3 {
+  margin-top: 0;
+}
+
+.contact-email {
+  font-size: 1.1rem;
+  font-weight: 600;
+  user-select: all;
+}
+
+form.apply-form {
+  display: grid;
+  gap: 12px;
+  max-width: 420px;
+  margin-top: 16px;
+}
+
+.form-field {
+  display: grid;
+  gap: 4px;
+}
+
+.form-field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: help;
+}
+
+.help-icon:hover,
+.help-icon:focus {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.faq-list {
+  display: grid;
+  gap: 8px;
+  max-width: 640px;
+}
+
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  background: var(--surface);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-item p {
+  margin: 10px 0 2px;
+}
+
+/* Флажок публикации — не обычный чекбокс: от него зависит, видит ли
+   товар кто-то кроме поставщика, поэтому состояние должно быть видно
+   с одного взгляда, а не угадываться по тонкой галочке. */
+#published-checkbox {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  margin-right: 4px;
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+}
+
+#published-checkbox:checked {
+  background: var(--accent-solid);
+  border-color: var(--accent-solid);
+}
+
+#published-checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+form.apply-form input,
+form.apply-form textarea {
+  font: inherit;
+  padding: 8px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+form.apply-form button {
+  justify-self: start;
+}
+
+.form-message {
+  font-size: 0.9rem;
+}
+
+.characteristics-box {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px;
+  margin: 0;
+}
+
+.characteristics-box legend {
+  padding: 0 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* Поле «Свои метки» — плитки выбранного + подсказки с числом и
+   разницей между готовым разделом и своей меткой (решение владельца/
+   оркестратора от 12.10.2026). min-width: 0 на гибких элементах —
+   та же защита от переполнения на узком экране, что мы уже один раз
+   забыли поставить сегодня и из-за этого ловили «нерабочую» кнопку. */
+.tags-picker {
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 8px;
+  background: var(--surface);
+}
+
+.tags-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.tags-chips:empty {
+  margin-bottom: 0;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 100%;
+  padding: 3px 4px 3px 10px;
+  border-radius: 999px;
+  background: var(--accent-solid);
+  color: #fff;
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.tag-chip-remove {
+  flex: 0 0 auto;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.tags-picker input[type="text"] {
+  width: 100%;
+  min-width: 0;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  padding: 4px 2px;
+}
+
+.tags-picker input[type="text"]:focus {
+  outline: none;
+}
+
+.tags-suggestions {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  max-height: 260px;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.tag-suggestion {
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.tag-suggestion:hover,
+.tag-suggestion:focus {
+  background: var(--surface);
+}
+
+.tag-suggestion-label {
+  overflow-wrap: anywhere;
+}
+
+.tag-suggestion-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.tag-kind {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  margin-right: 4px;
+}
+
+.tag-kind-category {
+  background: var(--accent-solid);
+  color: #fff;
+}
+
+.tag-kind-free {
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.tag-suggestion-new .tag-suggestion-label {
+  font-weight: 600;
+}
+
+.my-proposals-list {
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.my-proposals-list li {
+  overflow-wrap: anywhere;
+}
+
+.field-group-label {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted, var(--text));
+}
+
+.categories-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-top: 6px;
+}
+
+.category-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+}
+
+.attribute-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 6px;
+  align-items: center;
+}
+
+.attribute-row input {
+  min-width: 0;
+  font: inherit;
+  padding: 8px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+/* Та же строка-конструктор, что у характеристик: поле + кнопка удаления.
+   min-width: 0 обязателен — без него поле не сжимается ниже своего
+   неявного минимума и кнопка уезжает за край на узком экране (три дня
+   владелец не мог её нажать, см. "Грабли этой машины" в CLAUDE.md). */
+.photo-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+/* Дополнительные фото на странице товара — просто видны и открываются,
+   без отдельной галереи (задачи на неё не было). Flex с wrap сам
+   переносит превью на следующую строку на узком экране, ничего
+   отдельно под 420px подгонять не нужно. */
+.extra-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.extra-photo-thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+/* Листание фото на странице товара — решение владельца от 15.10.2026:
+   клик по превью меняет большое фото на месте, а не открывает новую
+   вкладку. Показывается только при двух и больше фото — у карточки с
+   одной стрелки и превью не нужны вовсе, тыкать было бы некуда. */
+.photo-gallery-main {
+  position: relative;
+  max-width: 420px;
+  margin-bottom: 16px;
+}
+
+.photo-gallery-main .detail-photo-img {
+  margin-bottom: 0;
+}
+
+/* Стрелки — ровно то место, которое на узком экране обычно уезжает за
+   край или закрывает собой фото. 40px — тот же порядок размера, что и
+   у кнопок рядом (не меньше привычного пальцу тап-таргета), и они
+   стоят внутри .photo-gallery-main, которая не шире самого фото — на
+   любой ширине экрана они остаются над картинкой, а не вылезают сбоку. */
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.gallery-arrow-prev {
+  left: 8px;
+}
+
+.gallery-arrow-next {
+  right: 8px;
+}
+
+.extra-photo-thumb-button {
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.extra-photo-thumb-button.extra-photo-thumb-active {
+  border-color: var(--accent);
+}
+
+/* Фото во весь экран — решение владельца от 15.10.2026. Три способа
+   закрыть (крестик, клик мимо, Escape) — ни один не требует попасть
+   точно в маленькую кнопку, это и был риск, который предупреждали. */
+.photo-fullscreen {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.photo-fullscreen-img {
+  max-width: 92vw;
+  max-height: 92vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.photo-fullscreen-error {
+  color: #fff;
+  text-align: center;
+  max-width: calc(100vw - 2 * 72px);
+  padding: 0 8px;
+}
+
+.photo-fullscreen-error a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.photo-fullscreen-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.photo-fullscreen-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.photo-fullscreen-arrow.gallery-arrow-prev {
+  left: 12px;
+}
+
+.photo-fullscreen-arrow.gallery-arrow-next {
+  right: 12px;
+}
+
+.photo-row input {
+  min-width: 0;
+  font: inherit;
+  padding: 8px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #231b18;
+  color: #fff;
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cookie-banner a {
+  color: #fff;
+}
+
+.cookie-banner button {
+  background: var(--accent-solid);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Small demo label; the original site layout and palette are retained. */
+.demo-notice {
+  margin: 0; padding: 9px 20px; text-align: center;
+  background: var(--note-bg); color: var(--muted); font-size: 13px;
+  border-bottom: 1px solid var(--border);
+}
+.demo-notice a { white-space: nowrap; }
+.site-footer a,
+.site-footer a:visited,
+.site-footer a:hover { color: var(--bar-text); }

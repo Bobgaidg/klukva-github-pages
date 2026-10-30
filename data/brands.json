@@ -1,0 +1,44 @@
+[
+  {
+    "id": "roga-i-kopyta",
+    "name": "«Рога и копыта» — тест-бренд Клюквы",
+    "city": "Иваново",
+    "workshop": "«Рога и копыта»",
+    "supplierUrl": ""
+  },
+  {
+    "id": "sem-pyatnic",
+    "name": "«Семь пятниц» — тест-бренд Клюквы",
+    "city": "Гжель",
+    "workshop": "«Семь пятниц»",
+    "supplierUrl": ""
+  },
+  {
+    "id": "tridevyatoe-carstvo",
+    "name": "«Тридевятое царство» — тест-бренд Клюквы",
+    "city": "Суздаль",
+    "workshop": "«Тридевятое царство»",
+    "supplierUrl": ""
+  },
+  {
+    "id": "shivorot-navyvorot",
+    "name": "«Шиворот-навыворот» — тест-бренд Клюквы",
+    "city": "Вологда",
+    "workshop": "«Шиворот-навыворот»",
+    "supplierUrl": ""
+  },
+  {
+    "id": "kot-v-meshke",
+    "name": "«Кот в мешке» — тест-бренд Клюквы",
+    "city": "Тула",
+    "workshop": "«Кот в мешке»",
+    "supplierUrl": ""
+  },
+  {
+    "id": "dva-sapoga-para",
+    "name": "«Два сапога пара» — тест-бренд Клюквы",
+    "city": "Городец",
+    "workshop": "«Два сапога пара»",
+    "supplierUrl": ""
+  }
+]
